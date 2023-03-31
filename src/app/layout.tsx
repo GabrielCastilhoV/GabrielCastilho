@@ -1,5 +1,5 @@
 // components
-import { Header } from "components"
+import Header from "components/shared/header"
 
 // styles
 import "styles/globals.css"
