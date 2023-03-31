@@ -1,5 +1,6 @@
 // components
 import Header from "components/shared/header"
+import { Footer } from "components"
 
 // styles
 import "styles/globals.css"
@@ -17,11 +18,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`px-5 ${interVariable.className} m-auto max-w-4xl bg-dark text-white`}
+        className={`min-h-screen px-5 ${interVariable.className} m-auto max-w-4xl bg-dark text-white`}
       >
         <Header />
-
         <main>{children}</main>
+        <Footer />
       </body>
     </html>
   )
