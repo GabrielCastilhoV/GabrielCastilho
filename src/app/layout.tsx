@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`px-5 ${interVariable.className} m-auto max-w-5xl bg-dark text-white`}
+        className={`px-5 ${interVariable.className} m-auto max-w-4xl bg-dark text-white`}
       >
         <Header />
 
