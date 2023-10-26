@@ -5,6 +5,7 @@ export default function About() {
         Founder of{" "}
         <a
           href="https://juridiq.com.br"
+          target="_blank"
           className="text-green"
           style={{ textDecoration: "underline" }}
         >
